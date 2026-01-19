@@ -1,6 +1,6 @@
-const keyEl = document.getElementById("key");
-const keyCodeEl = document.getElementById("keyCode");
-const codeEl = document.getElementById("code");
+const keyEl = document.getElementById("eventKey");
+const keyCodeEl = document.getElementById("eventKeyCode");
+const codeEl = document.getElementById("eventCode");
 
 document.addEventListener("keydown", (e) => {
   keyEl.innerText = e.key === " " ? "Space" : e.key;
